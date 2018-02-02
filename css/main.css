@@ -42,6 +42,12 @@ ul.posts li {
     list-style: none;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 img {
     padding: 0;
     display: block;
