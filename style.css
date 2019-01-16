@@ -20,3 +20,12 @@ ul li:before {
   position: absolute;
   margin-left: -20px;
 }
+
+.imgDes {
+  margin-left: 180px;
+  overflow: hidden;
+  text-align: left;
+}
+.imgDes p {
+  text-align: right;
+}
