@@ -1,4 +1,4 @@
 name: Jenna T. B. Ekwealor
 markdown: kramdown
 
-theme: jekyll-theme-flex
+remote_theme: the-development/flex
