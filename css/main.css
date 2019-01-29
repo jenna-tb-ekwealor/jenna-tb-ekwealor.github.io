@@ -29,8 +29,25 @@ a:hover {
 
 
 
+body {
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 60px auto;
+    width: 70%;
+    background-color: #fffefb;
+}
 
-#logo{
+ 
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 20px 0 ;
+}
+
+
+
+#logo {
 
 	margin: 20px;
 	float: left;
@@ -67,11 +84,13 @@ a:hover#menu-icon {
 
 
 
+/* 
 .current {
 
 	color: #2262AD;
 
 }
+ */
 
 
 
@@ -87,21 +106,8 @@ p {
 
 
 
-body {
-	font-size: 1.05em;
-	line-height: 1.25em;
-	font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    margin: 60px auto;
-    width: 80%;
-    background-color: #fffefb;
-}
 
- 
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    margin: 20px 0 ;
-}
+
 
 nav ul li, footer ul li {
 	list-style-type: none;
