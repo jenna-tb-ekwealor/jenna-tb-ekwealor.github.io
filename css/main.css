@@ -1,16 +1,13 @@
 /*RESET*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
 
-/*MAIN*/
-/* 
-body { 
+MAINbody { 
 	font-size: 1.05em;
 	line-height: 1.25em;
 	font-family: Helvetica Neue, Helvetica, Arial;
-	background: #f9f9f9;
+	background: #fffefb;
 	color: #555;
 }
- */
 
 a {
 
@@ -22,25 +19,25 @@ a {
 
 a:hover {
 
-	color: #444;
+	color: #d3a579;
 
 }
 
 img {
 
-	width: 100%;
+	width: 80%;
 
 }
 
 header {
 
-	background: #fff;
+	background: #fffefb;
 	width: 100%;
 	height: 76px;
 	position: fixed;
 	top: 0;
 	left: 0;
-	border-bottom: 4px solid #4C9CF1;
+	border-bottom: 4px solid #e6ccb3;
 	z-index: 100;
 
 }
@@ -51,7 +48,7 @@ header {
 	float: left;
 	width: 200px;
 	height: 40px;
-	background: url(../img/logo.png) no-repeat center;
+	background: url(../img/logo_JTBE.png) no-repeat center;
 	display: block;
 
 }
@@ -68,7 +65,7 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
+	background: #fffefb url(../img/menu-icon.png) center;
 
 }
 
@@ -79,13 +76,11 @@ a:hover#menu-icon {
 
 }
 
-/* 
 ul {
 
 	list-style: none;
 
 }
- */
 
 li {
 
@@ -133,6 +128,7 @@ p {
 
 
 
+/* 
 
 
 
@@ -162,12 +158,18 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
  */
+
+
 /* 
 a {
     text-decoration: none;
     color: #e6ccb3;
 }
  */
+
+
+
+/* 
 a:hover {
     text-decoration: underline;
 }
@@ -201,3 +203,50 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
+ */
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
