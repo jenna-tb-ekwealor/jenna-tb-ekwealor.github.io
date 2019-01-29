@@ -86,22 +86,6 @@ a:hover#menu-icon {
 
 
 
-/* 
-
-ul {
-
-	list-style: none;
-
-}
-
-li {
-
-	display: inline-block;
-	float: left;
-	padding: 10px
-
-}
- */
 
 .current {
 
@@ -120,16 +104,7 @@ section {
 }
  */
 
-/* 
-h1 {
 
-	font-size: 2em;
-	color: #2262AD;
-	line-height: 1.15em;
-	margin: 20px 0 ;
-
-}
- */
 
 p {
 
@@ -220,6 +195,35 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
+
+ul {
+
+	list-style: none;
+
+}
+
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
