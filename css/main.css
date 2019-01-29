@@ -84,14 +84,6 @@ a:hover#menu-icon {
 
 
 
-/* 
-.current {
-
-	color: #2262AD;
-
-}
- */
-
 
 
 
@@ -127,6 +119,8 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 
 }
+
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -139,15 +133,23 @@ ul.posts {
     font-size: 1.5em;
 }
 
+
+
+
 ul.posts li {
     list-style: none;
 }
+
+
+
 
 img {
     padding: 0;
     display: block;
     margin: 0 auto;
+/* 
     max-height: 100%;
+ */
     max-width: 100%;
 }
 
@@ -182,6 +184,16 @@ section {
 
 
 
+/* 
+.current {
+
+	color: #2262AD;
+
+}
+ */
+
+
+
 
 
 
@@ -208,8 +220,8 @@ section {
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: #d3a579;
-		border: 5px solid #e6ccb3;
+		background: #fff;
+		border: 5px solid #444;
 		right: 20px;
 		top: 60px;
 		width: 50%;
