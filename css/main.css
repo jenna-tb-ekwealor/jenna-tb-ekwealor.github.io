@@ -105,6 +105,7 @@ section {
 
 }
 
+/* 
 h1 {
 
 	font-size: 2em;
@@ -113,6 +114,7 @@ h1 {
 	margin: 20px 0 ;
 
 }
+ */
 
 p {
 
@@ -128,16 +130,16 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
 /* 
-
-
-
-
-
-
-
-
-
 body {
 	font-size: 1.05em;
 	line-height: 1.25em;
@@ -152,31 +154,36 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-/* 
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
- */
 
 
-/* 
 a {
     text-decoration: none;
     color: #e6ccb3;
 }
- */
 
 
 
-/* 
 a:hover {
     text-decoration: underline;
 }
+ */
+ 
+ 
+ 
+ 
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+
+
+
+/* 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
