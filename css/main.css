@@ -167,7 +167,12 @@ li {
 
 
 
+section {
 
+	margin: 80px auto 40px;
+	max-width: 980px;
+	position: relative;
+	padding: 20px
 
 
 
