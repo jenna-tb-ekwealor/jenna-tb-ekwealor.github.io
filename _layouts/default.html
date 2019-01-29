@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<meta charset="utf-8">
 	<head>
 		<title>{{ page.title }}</title>
+		<meta name="default" content="Default Layout">
+
+		<meta name="J. Ekwealor" content="jennaekwealor.com">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 			<!-- link to main stylesheet (  ) -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
 	</head>
 	<body>
-		<nav>
+	<header>
+
+		<a href="#" id="logo"></a>
+
+			<nav>
+
+				<a href="#" id="menu-icon"></a>
+
+				<ul>
+
+					<li><a href="/"><font color="black">Jenna T. B. Ekwealor</font></a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/research">Research</a></li>
+					<li><a href="/publications">Publications</a></li>
+            		<li><a href="/photography">Photography</a></li>
+            		<li><a href="/contact">Contact</a></li>
+        			<li><a href="/cv/CV_2019_J_Ekwealor.pdf" target="_blank">CV<font size="-2"><sup>&#8599;</font></sup></a></li>        		
+        			<li><a href="https://bryophytingbiologist.wordpress.com" target="_blank">Blog<font size="-2"><sup>&#8599;</font></sup></a></li>
+
+				</ul>
+
+			</nav>
+		
+		<!-- old nav
+<nav>
     		<ul>
         		<li><a href="/"><font color="black">Jenna T. B. Ekwealor</font></a></li>
 	        	<li><a href="/about">About</a></li>
@@ -19,6 +51,7 @@
         		
     		</ul>
 		</nav>
+ -->
 		<div class="container">
     		
 			{{ content }}
@@ -31,4 +64,28 @@
 			</ul>
 		</footer>
 	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+</body>
+
 </html>
