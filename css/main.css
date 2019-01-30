@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #392513;
     margin: 20px 0 ;
@@ -184,6 +184,7 @@ section {
 	max-width: 980px;
 	position: relative;
 	padding: 20px
+    font-size: 1em;
 
 
 
