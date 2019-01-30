@@ -73,7 +73,7 @@ h2 {
 
 #menu-icon {
 
-	display: hidden;
+	display: none;
 	width: 40px;
 	height: 40px;
 	background: #d3a579 url(../img/menu-icon.png) center;
