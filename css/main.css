@@ -73,7 +73,7 @@ h2 {
 
 #menu-icon {
 
-	visibility: hidden;
+	display: hidden;
 	width: 40px;
 	height: 40px;
 	background: #fffefb url(../img/menu-icon.png) center;
