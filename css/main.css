@@ -61,6 +61,7 @@ h2 {
 	width: 200px;
 	height: 40px;
 	background: url(../img/logo_JTBE.png) no-repeat center;
+	background-size: 200px 40px;
 	display: block;
 
 }
