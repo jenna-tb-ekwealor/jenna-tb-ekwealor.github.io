@@ -46,6 +46,12 @@ h1 {
     margin: 20px 0 ;
 }
 
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #392513;
+    margin: 20px 0 ;
+}
 
 
 #logo {
