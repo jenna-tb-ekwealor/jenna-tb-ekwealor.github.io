@@ -69,8 +69,6 @@ h2 {
 
 
 
-
-
 #menu-icon {
 
 	display: none;
@@ -101,9 +99,6 @@ p {
 	margin-bottom: 20px;
 
 }
-
-
-
 
 
 
@@ -171,7 +166,7 @@ ul {
 
 li {
 
-	display: inline-block;
+	display: inline;
 	float: left;
 	padding: 10px
 
