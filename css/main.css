@@ -41,6 +41,7 @@ body {
  
 h1 {
     font-size: 3em;
+    display: block;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #392513;
     margin: 20px 0 ;
@@ -48,6 +49,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    display: block;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #392513;
     margin: 20px 0 ;
@@ -55,13 +57,15 @@ h2 {
 
 h3 {
     font-size: 1em;
+    display: block;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #392513;
     margin: 20px 0 ;
 }
 
 h4 {
-    font-size: 0.5em;
+    font-size: 0.75em;
+    display: block;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #392513;
     margin: 20px 0 ;
