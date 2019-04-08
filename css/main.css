@@ -178,13 +178,13 @@ img {
 ul {
 
 	list-style: none;
-	display: block;
+	display: inline-block;
 
 }
 
 li {
 
-	display: block;
+	display: inline-block;
 	float: left;
 	padding: 10px
 
